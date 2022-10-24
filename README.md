@@ -5,7 +5,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9b495937c89b77e261eb/maintainability)](https://codeclimate.com/github/sskam12/python-project-50/maintainability)
 
-
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9b495937c89b77e261eb/test_coverage)](https://codeclimate.com/github/sskam12/python-project-50/test_coverage)
 
 #### Comparison of flat files
 Search for differences between two flat json files.
