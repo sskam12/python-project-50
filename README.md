@@ -1,4 +1,4 @@
-#  Generator of Difference
+#  Defining Differences
 ___
 
 Hexlet's second level training project on the Python Software Development
@@ -31,6 +31,7 @@ optional arguments:
   -f {stylish,json,plain}, --format {stylish,json,plain}
                         set format of output
 ```
+___
 
 #### Comparison of flat files
 Search for differences between two flat json files.
