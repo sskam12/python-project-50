@@ -32,6 +32,6 @@ def generate_diff(file_path1, file_path2):
         if dict2.get(k) and not dict1.get(k):
             result_str += '+ '
         result_str += f'{v}: {k}\n'
-    result_str += '}'
+    result_str += '}\n'
     print(result_str.lower())
     return result_str.lower()
