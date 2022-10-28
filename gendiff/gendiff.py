@@ -1,12 +1,13 @@
 #!usr/bin/env python3
 
-import json
+from gendiff.parser import get_file_extension, parse
 
 
 def generate_diff(file_path1, file_path2):
-
-    file1 = json.load(open(file_path1))
-    file2 = json.load(open(file_path2))
+    file_extension1 = get_file_extension(file_path1)
+    file1 = parse(file_path1, file_extension1)
+    file_extension2 = get_file_extension(file_path2)
+    file2 = parse(file_path2, file_extension2)
     dict1 = {y: x for x, y in file1.items()}
     dict2 = {y: x for x, y in file2.items()}
 
