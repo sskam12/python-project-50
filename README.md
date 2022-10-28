@@ -34,6 +34,9 @@ optional arguments:
 ___
 
 #### Comparison of flat files
-Search for differences between two flat json files.
+Search for differences between two flat JSON files.
 [![asciicast](https://asciinema.org/a/xB0j8KaMx0HnTQsamF4deUFhW.png)](https://asciinema.org/a/xB0j8KaMx0HnTQsamF4deUFhW)
+___
 
+Search for differences between two flat YAML files.
+[![asciicast](https://asciinema.org/a/K0giXcgqP3ZZBX0K3xqNVp4UK.svg)](https://asciinema.org/a/K0giXcgqP3ZZBX0K3xqNVp4UK)
